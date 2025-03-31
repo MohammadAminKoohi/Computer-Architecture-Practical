@@ -3354,14 +3354,14 @@
       <a name="label" val="lsb16"/>
       <a name="width" val="16"/>
     </comp>
+    <comp lib="0" loc="(1080,330)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="stage_16"/>
+      <a name="width" val="64"/>
+    </comp>
     <comp lib="0" loc="(1100,190)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="stage_4"/>
-      <a name="width" val="64"/>
-    </comp>
-    <comp lib="0" loc="(1100,330)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="stage_16"/>
       <a name="width" val="64"/>
     </comp>
     <comp lib="0" loc="(1100,80)" name="Tunnel">
@@ -3369,7 +3369,7 @@
       <a name="label" val="stage_2"/>
       <a name="width" val="64"/>
     </comp>
-    <comp lib="0" loc="(1120,330)" name="Splitter">
+    <comp lib="0" loc="(1110,330)" name="Splitter">
       <a name="appear" val="center"/>
       <a name="bit1" val="0"/>
       <a name="bit10" val="0"/>
@@ -3435,8 +3435,9 @@
       <a name="bit8" val="0"/>
       <a name="bit9" val="0"/>
       <a name="incoming" val="64"/>
+      <a name="spacing" val="2"/>
     </comp>
-    <comp lib="0" loc="(1160,350)" name="Constant">
+    <comp lib="0" loc="(1160,380)" name="Constant">
       <a name="value" val="0x0"/>
       <a name="width" val="32"/>
     </comp>
@@ -3821,13 +3822,12 @@
     </comp>
     <comp loc="(430,200)" name="ZE"/>
     <wire from="(1010,630)" to="(1030,630)"/>
+    <wire from="(1080,330)" to="(1110,330)"/>
     <wire from="(1100,190)" to="(1210,190)"/>
-    <wire from="(1100,330)" to="(1120,330)"/>
     <wire from="(1100,80)" to="(1210,80)"/>
-    <wire from="(1130,320)" to="(1140,320)"/>
-    <wire from="(1140,310)" to="(1140,320)"/>
-    <wire from="(1140,310)" to="(1180,310)"/>
-    <wire from="(1140,330)" to="(1180,330)"/>
+    <wire from="(1130,310)" to="(1180,310)"/>
+    <wire from="(1130,330)" to="(1180,330)"/>
+    <wire from="(1160,350)" to="(1160,380)"/>
     <wire from="(1160,350)" to="(1260,350)"/>
     <wire from="(1170,100)" to="(1210,100)"/>
     <wire from="(1170,210)" to="(1210,210)"/>
