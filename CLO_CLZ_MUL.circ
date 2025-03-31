@@ -2982,4 +2982,747 @@
     <wire from="(990,1330)" to="(990,1340)"/>
     <wire from="(990,1340)" to="(990,1350)"/>
   </circuit>
+  <circuit name="S_R_A">
+    <a name="appearance" val="logisim_evolution"/>
+    <a name="circuit" val="S_R_A"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
+    <a name="simulationFrequency" val="1.0"/>
+    <comp lib="0" loc="(1010,1030)" name="Splitter">
+      <a name="appear" val="center"/>
+      <a name="facing" val="west"/>
+      <a name="fanout" val="64"/>
+      <a name="incoming" val="64"/>
+    </comp>
+    <comp lib="0" loc="(1010,1030)" name="Tunnel">
+      <a name="label" val="shift_16"/>
+      <a name="width" val="64"/>
+    </comp>
+    <comp lib="0" loc="(1070,120)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="stage_16"/>
+      <a name="width" val="64"/>
+    </comp>
+    <comp lib="0" loc="(1110,120)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="radix" val="10unsigned"/>
+      <a name="width" val="64"/>
+    </comp>
+    <comp lib="0" loc="(1110,260)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="stage_2"/>
+      <a name="width" val="64"/>
+    </comp>
+    <comp lib="0" loc="(1110,370)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="stage_4"/>
+      <a name="width" val="64"/>
+    </comp>
+    <comp lib="0" loc="(1180,280)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="shift_4"/>
+      <a name="width" val="64"/>
+    </comp>
+    <comp lib="0" loc="(1180,390)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="shift_8"/>
+      <a name="width" val="64"/>
+    </comp>
+    <comp lib="0" loc="(120,1050)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="extended_64"/>
+      <a name="width" val="64"/>
+    </comp>
+    <comp lib="0" loc="(120,330)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="shamt"/>
+      <a name="radix" val="10unsigned"/>
+      <a name="width" val="5"/>
+    </comp>
+    <comp lib="0" loc="(1230,240)" name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="label" val="b2"/>
+    </comp>
+    <comp lib="0" loc="(1230,350)" name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="label" val="b3"/>
+    </comp>
+    <comp lib="0" loc="(130,1030)" name="Splitter">
+      <a name="appear" val="center"/>
+      <a name="fanout" val="64"/>
+      <a name="incoming" val="64"/>
+    </comp>
+    <comp lib="0" loc="(130,330)" name="Splitter">
+      <a name="appear" val="center"/>
+      <a name="fanout" val="5"/>
+      <a name="incoming" val="5"/>
+    </comp>
+    <comp lib="0" loc="(1310,270)" name="Tunnel">
+      <a name="label" val="stage_4"/>
+      <a name="width" val="64"/>
+    </comp>
+    <comp lib="0" loc="(1310,380)" name="Tunnel">
+      <a name="label" val="stage_8"/>
+      <a name="width" val="64"/>
+    </comp>
+    <comp lib="0" loc="(150,200)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="A"/>
+      <a name="radix" val="10unsigned"/>
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="0" loc="(160,270)" name="Tunnel">
+      <a name="label" val="b0"/>
+    </comp>
+    <comp lib="0" loc="(160,390)" name="Tunnel">
+      <a name="label" val="b4"/>
+    </comp>
+    <comp lib="0" loc="(170,1040)" name="Splitter">
+      <a name="appear" val="center"/>
+      <a name="facing" val="west"/>
+      <a name="fanout" val="64"/>
+      <a name="incoming" val="64"/>
+    </comp>
+    <comp lib="0" loc="(180,1060)" name="Tunnel">
+      <a name="label" val="shift_1"/>
+      <a name="width" val="64"/>
+    </comp>
+    <comp lib="0" loc="(190,290)" name="Tunnel">
+      <a name="label" val="b1"/>
+    </comp>
+    <comp lib="0" loc="(190,370)" name="Tunnel">
+      <a name="label" val="b3"/>
+    </comp>
+    <comp lib="0" loc="(210,330)" name="Tunnel">
+      <a name="label" val="b2"/>
+    </comp>
+    <comp lib="0" loc="(320,1020)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="stage_1"/>
+      <a name="width" val="64"/>
+    </comp>
+    <comp lib="0" loc="(330,1020)" name="Splitter">
+      <a name="appear" val="center"/>
+      <a name="fanout" val="64"/>
+      <a name="incoming" val="64"/>
+    </comp>
+    <comp lib="0" loc="(370,1040)" name="Splitter">
+      <a name="appear" val="center"/>
+      <a name="facing" val="west"/>
+      <a name="fanout" val="64"/>
+      <a name="incoming" val="64"/>
+    </comp>
+    <comp lib="0" loc="(380,1040)" name="Tunnel">
+      <a name="label" val="shift_2"/>
+      <a name="width" val="64"/>
+    </comp>
+    <comp lib="0" loc="(500,200)" name="Tunnel">
+      <a name="label" val="extended_64"/>
+      <a name="width" val="64"/>
+    </comp>
+    <comp lib="0" loc="(510,990)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="stage_2"/>
+      <a name="width" val="64"/>
+    </comp>
+    <comp lib="0" loc="(530,990)" name="Splitter">
+      <a name="appear" val="center"/>
+      <a name="fanout" val="64"/>
+      <a name="incoming" val="64"/>
+    </comp>
+    <comp lib="0" loc="(570,1030)" name="Splitter">
+      <a name="appear" val="center"/>
+      <a name="facing" val="west"/>
+      <a name="fanout" val="64"/>
+      <a name="incoming" val="64"/>
+    </comp>
+    <comp lib="0" loc="(580,1030)" name="Tunnel">
+      <a name="label" val="shift_4"/>
+      <a name="width" val="64"/>
+    </comp>
+    <comp lib="0" loc="(710,110)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="stage_8"/>
+      <a name="width" val="64"/>
+    </comp>
+    <comp lib="0" loc="(740,1110)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="stage_4"/>
+      <a name="width" val="64"/>
+    </comp>
+    <comp lib="0" loc="(740,250)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="extended_64"/>
+      <a name="width" val="64"/>
+    </comp>
+    <comp lib="0" loc="(750,360)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="stage_1"/>
+      <a name="width" val="64"/>
+    </comp>
+    <comp lib="0" loc="(770,950)" name="Splitter">
+      <a name="appear" val="center"/>
+      <a name="fanout" val="64"/>
+      <a name="incoming" val="64"/>
+    </comp>
+    <comp lib="0" loc="(780,130)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="shift_16"/>
+      <a name="width" val="64"/>
+    </comp>
+    <comp lib="0" loc="(810,1030)" name="Splitter">
+      <a name="appear" val="center"/>
+      <a name="facing" val="west"/>
+      <a name="fanout" val="64"/>
+      <a name="incoming" val="64"/>
+    </comp>
+    <comp lib="0" loc="(810,1030)" name="Tunnel">
+      <a name="label" val="shift_8"/>
+      <a name="width" val="64"/>
+    </comp>
+    <comp lib="0" loc="(810,270)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="shift_1"/>
+      <a name="width" val="64"/>
+    </comp>
+    <comp lib="0" loc="(820,380)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="shift_2"/>
+      <a name="width" val="64"/>
+    </comp>
+    <comp lib="0" loc="(830,90)" name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="label" val="b4"/>
+    </comp>
+    <comp lib="0" loc="(860,230)" name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="label" val="b0"/>
+    </comp>
+    <comp lib="0" loc="(870,340)" name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="label" val="b1"/>
+    </comp>
+    <comp lib="0" loc="(910,120)" name="Tunnel">
+      <a name="label" val="stage_16"/>
+      <a name="width" val="64"/>
+    </comp>
+    <comp lib="0" loc="(940,260)" name="Tunnel">
+      <a name="label" val="stage_1"/>
+      <a name="width" val="64"/>
+    </comp>
+    <comp lib="0" loc="(950,370)" name="Tunnel">
+      <a name="label" val="stage_2"/>
+      <a name="width" val="64"/>
+    </comp>
+    <comp lib="0" loc="(960,870)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="stage_8"/>
+      <a name="width" val="64"/>
+    </comp>
+    <comp lib="0" loc="(970,870)" name="Splitter">
+      <a name="appear" val="center"/>
+      <a name="fanout" val="64"/>
+      <a name="incoming" val="64"/>
+    </comp>
+    <comp lib="2" loc="(1250,270)" name="Multiplexer">
+      <a name="selloc" val="tr"/>
+      <a name="width" val="64"/>
+    </comp>
+    <comp lib="2" loc="(1250,380)" name="Multiplexer">
+      <a name="selloc" val="tr"/>
+      <a name="width" val="64"/>
+    </comp>
+    <comp lib="2" loc="(850,120)" name="Multiplexer">
+      <a name="selloc" val="tr"/>
+      <a name="width" val="64"/>
+    </comp>
+    <comp lib="2" loc="(880,260)" name="Multiplexer">
+      <a name="selloc" val="tr"/>
+      <a name="width" val="64"/>
+    </comp>
+    <comp lib="2" loc="(890,370)" name="Multiplexer">
+      <a name="selloc" val="tr"/>
+      <a name="width" val="64"/>
+    </comp>
+    <comp loc="(440,200)" name="SE"/>
+    <wire from="(1070,120)" to="(1110,120)"/>
+    <wire from="(1110,260)" to="(1220,260)"/>
+    <wire from="(1110,370)" to="(1220,370)"/>
+    <wire from="(1180,280)" to="(1220,280)"/>
+    <wire from="(1180,390)" to="(1220,390)"/>
+    <wire from="(120,1050)" to="(130,1050)"/>
+    <wire from="(120,330)" to="(130,330)"/>
+    <wire from="(1230,240)" to="(1230,250)"/>
+    <wire from="(1230,350)" to="(1230,360)"/>
+    <wire from="(1250,270)" to="(1310,270)"/>
+    <wire from="(1250,380)" to="(1310,380)"/>
+    <wire from="(130,1030)" to="(130,1050)"/>
+    <wire from="(150,1340)" to="(150,1350)"/>
+    <wire from="(150,200)" to="(220,200)"/>
+    <wire from="(150,270)" to="(150,310)"/>
+    <wire from="(150,270)" to="(160,270)"/>
+    <wire from="(150,320)" to="(170,320)"/>
+    <wire from="(150,330)" to="(210,330)"/>
+    <wire from="(150,340)" to="(170,340)"/>
+    <wire from="(150,350)" to="(150,390)"/>
+    <wire from="(150,390)" to="(160,390)"/>
+    <wire from="(170,1040)" to="(170,1060)"/>
+    <wire from="(170,1060)" to="(180,1060)"/>
+    <wire from="(170,290)" to="(170,320)"/>
+    <wire from="(170,290)" to="(190,290)"/>
+    <wire from="(170,340)" to="(170,370)"/>
+    <wire from="(170,370)" to="(190,370)"/>
+    <wire from="(320,1020)" to="(330,1020)"/>
+    <wire from="(350,1330)" to="(350,1340)"/>
+    <wire from="(350,1340)" to="(350,1350)"/>
+    <wire from="(370,1040)" to="(380,1040)"/>
+    <wire from="(430,200)" to="(440,200)"/>
+    <wire from="(440,200)" to="(500,200)"/>
+    <wire from="(510,990)" to="(530,990)"/>
+    <wire from="(550,1300)" to="(550,1310)"/>
+    <wire from="(550,1310)" to="(550,1320)"/>
+    <wire from="(550,1320)" to="(550,1330)"/>
+    <wire from="(550,1330)" to="(550,1340)"/>
+    <wire from="(570,1030)" to="(580,1030)"/>
+    <wire from="(710,110)" to="(820,110)"/>
+    <wire from="(740,1110)" to="(770,1110)"/>
+    <wire from="(740,250)" to="(850,250)"/>
+    <wire from="(750,360)" to="(860,360)"/>
+    <wire from="(770,950)" to="(770,1110)"/>
+    <wire from="(780,130)" to="(820,130)"/>
+    <wire from="(790,1260)" to="(790,1270)"/>
+    <wire from="(790,1270)" to="(790,1280)"/>
+    <wire from="(790,1280)" to="(790,1290)"/>
+    <wire from="(790,1290)" to="(790,1300)"/>
+    <wire from="(790,1300)" to="(790,1310)"/>
+    <wire from="(790,1310)" to="(790,1320)"/>
+    <wire from="(790,1320)" to="(790,1330)"/>
+    <wire from="(790,1330)" to="(790,1340)"/>
+    <wire from="(810,270)" to="(850,270)"/>
+    <wire from="(820,380)" to="(860,380)"/>
+    <wire from="(830,90)" to="(830,100)"/>
+    <wire from="(850,120)" to="(910,120)"/>
+    <wire from="(860,230)" to="(860,240)"/>
+    <wire from="(870,340)" to="(870,350)"/>
+    <wire from="(880,260)" to="(940,260)"/>
+    <wire from="(890,370)" to="(950,370)"/>
+    <wire from="(960,870)" to="(970,870)"/>
+    <wire from="(990,1180)" to="(990,1190)"/>
+    <wire from="(990,1190)" to="(1000,1190)"/>
+    <wire from="(990,1190)" to="(990,1200)"/>
+    <wire from="(990,1200)" to="(990,1210)"/>
+    <wire from="(990,1210)" to="(990,1220)"/>
+    <wire from="(990,1220)" to="(990,1230)"/>
+    <wire from="(990,1230)" to="(990,1240)"/>
+    <wire from="(990,1240)" to="(990,1250)"/>
+    <wire from="(990,1250)" to="(990,1260)"/>
+    <wire from="(990,1260)" to="(990,1270)"/>
+    <wire from="(990,1270)" to="(990,1280)"/>
+    <wire from="(990,1280)" to="(990,1290)"/>
+    <wire from="(990,1290)" to="(990,1300)"/>
+    <wire from="(990,1300)" to="(990,1310)"/>
+    <wire from="(990,1310)" to="(990,1320)"/>
+    <wire from="(990,1320)" to="(990,1330)"/>
+    <wire from="(990,1330)" to="(990,1340)"/>
+  </circuit>
+  <circuit name="ROTR">
+    <a name="appearance" val="logisim_evolution"/>
+    <a name="circuit" val="ROTR"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
+    <a name="simulationFrequency" val="1.0"/>
+    <comp lib="0" loc="(1010,1030)" name="Splitter">
+      <a name="appear" val="center"/>
+      <a name="facing" val="west"/>
+      <a name="fanout" val="64"/>
+      <a name="incoming" val="64"/>
+    </comp>
+    <comp lib="0" loc="(1010,1030)" name="Tunnel">
+      <a name="label" val="shift_16"/>
+      <a name="width" val="64"/>
+    </comp>
+    <comp lib="0" loc="(1010,630)" name="Splitter">
+      <a name="appear" val="center"/>
+      <a name="facing" val="west"/>
+      <a name="fanout" val="16"/>
+      <a name="incoming" val="16"/>
+    </comp>
+    <comp lib="0" loc="(1030,630)" name="Tunnel">
+      <a name="label" val="lsb16"/>
+      <a name="width" val="16"/>
+    </comp>
+    <comp lib="0" loc="(1070,120)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="stage_16"/>
+      <a name="width" val="64"/>
+    </comp>
+    <comp lib="0" loc="(1110,120)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="64"/>
+    </comp>
+    <comp lib="0" loc="(1110,260)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="stage_2"/>
+      <a name="width" val="64"/>
+    </comp>
+    <comp lib="0" loc="(1110,370)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="stage_4"/>
+      <a name="width" val="64"/>
+    </comp>
+    <comp lib="0" loc="(1180,280)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="shift_4"/>
+      <a name="width" val="64"/>
+    </comp>
+    <comp lib="0" loc="(1180,390)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="shift_8"/>
+      <a name="width" val="64"/>
+    </comp>
+    <comp lib="0" loc="(120,1030)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="extended_64"/>
+      <a name="width" val="64"/>
+    </comp>
+    <comp lib="0" loc="(120,1350)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="lsb1"/>
+    </comp>
+    <comp lib="0" loc="(120,330)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="shamt"/>
+      <a name="radix" val="10unsigned"/>
+      <a name="width" val="5"/>
+    </comp>
+    <comp lib="0" loc="(1230,240)" name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="label" val="b2"/>
+    </comp>
+    <comp lib="0" loc="(1230,350)" name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="label" val="b3"/>
+    </comp>
+    <comp lib="0" loc="(130,1030)" name="Splitter">
+      <a name="appear" val="center"/>
+      <a name="fanout" val="64"/>
+      <a name="incoming" val="64"/>
+    </comp>
+    <comp lib="0" loc="(130,330)" name="Splitter">
+      <a name="appear" val="center"/>
+      <a name="fanout" val="5"/>
+      <a name="incoming" val="5"/>
+    </comp>
+    <comp lib="0" loc="(1310,270)" name="Tunnel">
+      <a name="label" val="stage_4"/>
+      <a name="width" val="64"/>
+    </comp>
+    <comp lib="0" loc="(1310,380)" name="Tunnel">
+      <a name="label" val="stage_8"/>
+      <a name="width" val="64"/>
+    </comp>
+    <comp lib="0" loc="(150,200)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="A"/>
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="0" loc="(160,270)" name="Tunnel">
+      <a name="label" val="b0"/>
+    </comp>
+    <comp lib="0" loc="(160,390)" name="Tunnel">
+      <a name="label" val="b4"/>
+    </comp>
+    <comp lib="0" loc="(160,710)" name="Tunnel">
+      <a name="label" val="lsb1"/>
+    </comp>
+    <comp lib="0" loc="(170,1040)" name="Splitter">
+      <a name="appear" val="center"/>
+      <a name="facing" val="west"/>
+      <a name="fanout" val="64"/>
+      <a name="incoming" val="64"/>
+    </comp>
+    <comp lib="0" loc="(180,1040)" name="Tunnel">
+      <a name="label" val="shift_1"/>
+      <a name="width" val="64"/>
+    </comp>
+    <comp lib="0" loc="(190,290)" name="Tunnel">
+      <a name="label" val="b1"/>
+    </comp>
+    <comp lib="0" loc="(190,370)" name="Tunnel">
+      <a name="label" val="b3"/>
+    </comp>
+    <comp lib="0" loc="(210,330)" name="Tunnel">
+      <a name="label" val="b2"/>
+    </comp>
+    <comp lib="0" loc="(320,1020)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="stage_1"/>
+      <a name="width" val="64"/>
+    </comp>
+    <comp lib="0" loc="(330,1020)" name="Splitter">
+      <a name="appear" val="center"/>
+      <a name="fanout" val="64"/>
+      <a name="incoming" val="64"/>
+    </comp>
+    <comp lib="0" loc="(330,1350)" name="Splitter">
+      <a name="appear" val="center"/>
+    </comp>
+    <comp lib="0" loc="(330,1350)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="lsb2"/>
+      <a name="width" val="2"/>
+    </comp>
+    <comp lib="0" loc="(370,1040)" name="Splitter">
+      <a name="appear" val="center"/>
+      <a name="facing" val="west"/>
+      <a name="fanout" val="64"/>
+      <a name="incoming" val="64"/>
+    </comp>
+    <comp lib="0" loc="(370,710)" name="Splitter">
+      <a name="appear" val="center"/>
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="0" loc="(370,710)" name="Tunnel">
+      <a name="label" val="lsb2"/>
+      <a name="width" val="2"/>
+    </comp>
+    <comp lib="0" loc="(380,1040)" name="Tunnel">
+      <a name="label" val="shift_2"/>
+      <a name="width" val="64"/>
+    </comp>
+    <comp lib="0" loc="(500,200)" name="Tunnel">
+      <a name="label" val="extended_64"/>
+      <a name="width" val="64"/>
+    </comp>
+    <comp lib="0" loc="(510,990)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="stage_2"/>
+      <a name="width" val="64"/>
+    </comp>
+    <comp lib="0" loc="(520,1330)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="lsb4"/>
+      <a name="width" val="4"/>
+    </comp>
+    <comp lib="0" loc="(530,1330)" name="Splitter">
+      <a name="appear" val="center"/>
+      <a name="fanout" val="4"/>
+      <a name="incoming" val="4"/>
+    </comp>
+    <comp lib="0" loc="(530,990)" name="Splitter">
+      <a name="appear" val="center"/>
+      <a name="fanout" val="64"/>
+      <a name="incoming" val="64"/>
+    </comp>
+    <comp lib="0" loc="(570,1030)" name="Splitter">
+      <a name="appear" val="center"/>
+      <a name="facing" val="west"/>
+      <a name="fanout" val="64"/>
+      <a name="incoming" val="64"/>
+    </comp>
+    <comp lib="0" loc="(570,690)" name="Splitter">
+      <a name="appear" val="center"/>
+      <a name="facing" val="west"/>
+      <a name="fanout" val="4"/>
+      <a name="incoming" val="4"/>
+    </comp>
+    <comp lib="0" loc="(580,1030)" name="Tunnel">
+      <a name="label" val="shift_4"/>
+      <a name="width" val="64"/>
+    </comp>
+    <comp lib="0" loc="(590,690)" name="Tunnel">
+      <a name="label" val="lsb4"/>
+      <a name="width" val="4"/>
+    </comp>
+    <comp lib="0" loc="(710,110)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="stage_8"/>
+      <a name="width" val="64"/>
+    </comp>
+    <comp lib="0" loc="(740,1110)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="stage_4"/>
+      <a name="width" val="64"/>
+    </comp>
+    <comp lib="0" loc="(740,250)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="extended_64"/>
+      <a name="width" val="64"/>
+    </comp>
+    <comp lib="0" loc="(750,360)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="stage_1"/>
+      <a name="width" val="64"/>
+    </comp>
+    <comp lib="0" loc="(760,1310)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="lsb8"/>
+      <a name="width" val="8"/>
+    </comp>
+    <comp lib="0" loc="(770,1310)" name="Splitter">
+      <a name="appear" val="center"/>
+      <a name="fanout" val="8"/>
+      <a name="incoming" val="8"/>
+    </comp>
+    <comp lib="0" loc="(770,950)" name="Splitter">
+      <a name="appear" val="center"/>
+      <a name="fanout" val="64"/>
+      <a name="incoming" val="64"/>
+    </comp>
+    <comp lib="0" loc="(780,130)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="shift_16"/>
+      <a name="width" val="64"/>
+    </comp>
+    <comp lib="0" loc="(810,1030)" name="Splitter">
+      <a name="appear" val="center"/>
+      <a name="facing" val="west"/>
+      <a name="fanout" val="64"/>
+      <a name="incoming" val="64"/>
+    </comp>
+    <comp lib="0" loc="(810,1030)" name="Tunnel">
+      <a name="label" val="shift_8"/>
+      <a name="width" val="64"/>
+    </comp>
+    <comp lib="0" loc="(810,270)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="shift_1"/>
+      <a name="width" val="64"/>
+    </comp>
+    <comp lib="0" loc="(810,670)" name="Splitter">
+      <a name="appear" val="center"/>
+      <a name="facing" val="west"/>
+      <a name="fanout" val="8"/>
+      <a name="incoming" val="8"/>
+    </comp>
+    <comp lib="0" loc="(820,380)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="shift_2"/>
+      <a name="width" val="64"/>
+    </comp>
+    <comp lib="0" loc="(830,670)" name="Tunnel">
+      <a name="label" val="lsb8"/>
+      <a name="width" val="8"/>
+    </comp>
+    <comp lib="0" loc="(830,90)" name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="label" val="b4"/>
+    </comp>
+    <comp lib="0" loc="(860,230)" name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="label" val="b0"/>
+    </comp>
+    <comp lib="0" loc="(870,340)" name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="label" val="b1"/>
+    </comp>
+    <comp lib="0" loc="(910,120)" name="Tunnel">
+      <a name="label" val="stage_16"/>
+      <a name="width" val="64"/>
+    </comp>
+    <comp lib="0" loc="(940,260)" name="Tunnel">
+      <a name="label" val="stage_1"/>
+      <a name="width" val="64"/>
+    </comp>
+    <comp lib="0" loc="(950,370)" name="Tunnel">
+      <a name="label" val="stage_2"/>
+      <a name="width" val="64"/>
+    </comp>
+    <comp lib="0" loc="(960,1270)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="lsb16"/>
+      <a name="width" val="16"/>
+    </comp>
+    <comp lib="0" loc="(960,870)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="stage_8"/>
+      <a name="width" val="64"/>
+    </comp>
+    <comp lib="0" loc="(970,1270)" name="Splitter">
+      <a name="appear" val="center"/>
+      <a name="fanout" val="16"/>
+      <a name="incoming" val="16"/>
+    </comp>
+    <comp lib="0" loc="(970,870)" name="Splitter">
+      <a name="appear" val="center"/>
+      <a name="fanout" val="64"/>
+      <a name="incoming" val="64"/>
+    </comp>
+    <comp lib="2" loc="(1250,270)" name="Multiplexer">
+      <a name="selloc" val="tr"/>
+      <a name="width" val="64"/>
+    </comp>
+    <comp lib="2" loc="(1250,380)" name="Multiplexer">
+      <a name="selloc" val="tr"/>
+      <a name="width" val="64"/>
+    </comp>
+    <comp lib="2" loc="(850,120)" name="Multiplexer">
+      <a name="selloc" val="tr"/>
+      <a name="width" val="64"/>
+    </comp>
+    <comp lib="2" loc="(880,260)" name="Multiplexer">
+      <a name="selloc" val="tr"/>
+      <a name="width" val="64"/>
+    </comp>
+    <comp lib="2" loc="(890,370)" name="Multiplexer">
+      <a name="selloc" val="tr"/>
+      <a name="width" val="64"/>
+    </comp>
+    <comp loc="(430,200)" name="ZE"/>
+    <wire from="(1010,630)" to="(1030,630)"/>
+    <wire from="(1070,120)" to="(1110,120)"/>
+    <wire from="(1110,260)" to="(1220,260)"/>
+    <wire from="(1110,370)" to="(1220,370)"/>
+    <wire from="(1180,280)" to="(1220,280)"/>
+    <wire from="(1180,390)" to="(1220,390)"/>
+    <wire from="(120,1030)" to="(130,1030)"/>
+    <wire from="(120,1350)" to="(150,1350)"/>
+    <wire from="(120,330)" to="(130,330)"/>
+    <wire from="(1230,240)" to="(1230,250)"/>
+    <wire from="(1230,350)" to="(1230,360)"/>
+    <wire from="(1250,270)" to="(1310,270)"/>
+    <wire from="(1250,380)" to="(1310,380)"/>
+    <wire from="(150,200)" to="(210,200)"/>
+    <wire from="(150,270)" to="(150,310)"/>
+    <wire from="(150,270)" to="(160,270)"/>
+    <wire from="(150,320)" to="(170,320)"/>
+    <wire from="(150,330)" to="(210,330)"/>
+    <wire from="(150,340)" to="(170,340)"/>
+    <wire from="(150,350)" to="(150,390)"/>
+    <wire from="(150,390)" to="(160,390)"/>
+    <wire from="(150,710)" to="(160,710)"/>
+    <wire from="(170,1040)" to="(180,1040)"/>
+    <wire from="(170,290)" to="(170,320)"/>
+    <wire from="(170,290)" to="(190,290)"/>
+    <wire from="(170,340)" to="(170,370)"/>
+    <wire from="(170,370)" to="(190,370)"/>
+    <wire from="(320,1020)" to="(330,1020)"/>
+    <wire from="(370,1040)" to="(380,1040)"/>
+    <wire from="(430,200)" to="(500,200)"/>
+    <wire from="(510,990)" to="(530,990)"/>
+    <wire from="(520,1330)" to="(530,1330)"/>
+    <wire from="(570,1030)" to="(580,1030)"/>
+    <wire from="(570,690)" to="(590,690)"/>
+    <wire from="(710,110)" to="(820,110)"/>
+    <wire from="(740,1110)" to="(770,1110)"/>
+    <wire from="(740,250)" to="(850,250)"/>
+    <wire from="(750,360)" to="(860,360)"/>
+    <wire from="(760,1310)" to="(770,1310)"/>
+    <wire from="(770,950)" to="(770,1110)"/>
+    <wire from="(780,130)" to="(820,130)"/>
+    <wire from="(810,270)" to="(850,270)"/>
+    <wire from="(810,670)" to="(830,670)"/>
+    <wire from="(820,380)" to="(860,380)"/>
+    <wire from="(830,90)" to="(830,100)"/>
+    <wire from="(850,120)" to="(910,120)"/>
+    <wire from="(860,230)" to="(860,240)"/>
+    <wire from="(870,340)" to="(870,350)"/>
+    <wire from="(880,260)" to="(940,260)"/>
+    <wire from="(890,370)" to="(950,370)"/>
+    <wire from="(960,1270)" to="(970,1270)"/>
+    <wire from="(960,870)" to="(970,870)"/>
+    <wire from="(990,1190)" to="(1000,1190)"/>
+  </circuit>
 </project>
