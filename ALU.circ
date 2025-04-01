@@ -310,7 +310,7 @@
     <comp lib="12" loc="(770,1010)" name="S_R_A"/>
     <comp lib="12" loc="(770,1090)" name="ROTR"/>
     <comp lib="12" loc="(770,610)" name="CLO"/>
-    <comp lib="12" loc="(770,720)" name="CLZ"/>
+    <comp lib="12" loc="(770,730)" name="CLZ"/>
     <comp lib="12" loc="(770,850)" name="S_L_L"/>
     <comp lib="12" loc="(770,930)" name="S_R_L"/>
     <comp lib="2" loc="(1490,170)" name="Multiplexer">
@@ -386,7 +386,7 @@
     <wire from="(310,490)" to="(310,610)"/>
     <wire from="(310,490)" to="(550,490)"/>
     <wire from="(310,610)" to="(310,850)"/>
-    <wire from="(310,610)" to="(550,610)"/>
+    <wire from="(310,610)" to="(450,610)"/>
     <wire from="(310,850)" to="(310,930)"/>
     <wire from="(310,850)" to="(550,850)"/>
     <wire from="(310,930)" to="(310,1010)"/>
@@ -413,6 +413,9 @@
     <wire from="(400,340)" to="(400,410)"/>
     <wire from="(400,340)" to="(640,340)"/>
     <wire from="(400,410)" to="(640,410)"/>
+    <wire from="(450,610)" to="(450,730)"/>
+    <wire from="(450,610)" to="(550,610)"/>
+    <wire from="(450,730)" to="(550,730)"/>
     <wire from="(460,1030)" to="(460,1110)"/>
     <wire from="(460,1030)" to="(550,1030)"/>
     <wire from="(460,1110)" to="(550,1110)"/>
